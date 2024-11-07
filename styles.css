@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+header{
+    padding: 3rem;
+    margin-bottom: 2rem;
+    background-color: #120323;
+    color: #97bf04;
+}
+header h1 {
+    text-align: center;
+}
+
+button {
+    padding: 1.5rem;
+    background-color:#d9043d;
+    cursor: pointer;
+    margin:1rem;
+    border-radius: 10px;
+
+}
+.button-container {
+    display: flex;             
+    justify-content: center;   
+     
+}
+
+    .button-selected {
+        background-color: #97bf04;
+    }
+    
+
+#banner{
+     max-width: 900px;
+     max-height: 600px;
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px black;
+     display: block;
+     margin:auto;
+
+}
+
+
+ 
+
